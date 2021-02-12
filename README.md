@@ -4,7 +4,7 @@
 
 	docker ps
 
-	docker exec -ti id-image-symfony5_php-fpm bash
+	docker exec -it id-image-symfony5_php-fpm bash
 
 	symfony new my_projet
 
@@ -15,7 +15,7 @@
 Go to localhost:5000 on your local machine
 
 
-Connection with mysql
+Connection with mysql (.env)
 
 	DATABASE_URL=mysql://root:root@mysql:3306/test?serverVersion=5.7 
 
